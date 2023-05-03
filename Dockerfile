@@ -31,7 +31,7 @@ RUN cargo build --release --features sandbox
 
 
 
-FROM debian
+FROM debian:11
 
 # Placing config and binary executable in different directories
 ARG CONFIG_DIR=/local/config
